@@ -1,0 +1,13 @@
+{
+  "name": "Archetype-u-text",
+  "version": "0.1.0",
+  "author": "Sam Ashley",
+  "main": "u-text.scss",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "component.json",
+    "package.json",
+    "test.html"
+  ]
+}
