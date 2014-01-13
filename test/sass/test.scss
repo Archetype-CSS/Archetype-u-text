@@ -1,0 +1,26 @@
+/**
+ * Test: Archetype/u-text.scss
+ *
+ */
+@import '../../_u-text.scss';
+
+.test__u-textCenter {
+  @extend %u-textCenter;
+}
+
+.test__u-textLeft {
+  @extend %u-textLeft;
+}
+
+.test__u-textRight {
+  @extend %u-textRight;
+}
+
+.test__u-textTruncate {
+  @extend %u-textTruncate;
+}
+
+.test__u-textBreak {
+  @extend %u-textBreak;
+}
+
