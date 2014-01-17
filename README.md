@@ -1,9 +1,3 @@
-u-text
-======
-
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
-
-
-[![Build Status](https://secure.travis-ci.org/Archetype-CSS/u-text.png?branch=master)](http://travis-ci.org/Archetype-CSS/utext)
+# u-text [![Build Status](https://secure.travis-ci.org/Archetype-CSS/u-text.png?branch=master)](http://travis-ci.org/Archetype-CSS/utext) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Archetype utility classes for text treatment
