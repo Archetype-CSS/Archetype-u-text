@@ -2,7 +2,7 @@
   "name": "Archetype-u-text",
   "version": "0.1.0",
   "author": "Sam Ashley",
-  "main": "u-text.scss",
+  "main": "_u-text.scss",
   "ignore": [
     ".*",
     "CHANGELOG.md",
