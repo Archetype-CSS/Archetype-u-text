@@ -1,3 +1,4 @@
 node_modules
-.sass-cache
+.sass-cache/
+test/.sass-cache/
 .DS_Store

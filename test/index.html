@@ -2,63 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Archetype u-text</title>
+    <title>Archetype-CSS/ u-text Unit Tests</title>
+    <link rel="stylesheet" href="css/u-text.css">
     <link rel="stylesheet" href="css/test.css">
-    <style>
-      a {
-        color: blue;
-      }
-
-      a:hover,
-      a:focus,
-      a:active {
-        color: red;
-      }
-
-      .partition {
-        background: #ddd;
-        margin-bottom: 10px;
-        max-width: 400px;
-      }
-    </style>
   </head>
   <body>
-    <h3>test__u-textCenter</h3>
-    <div class="partition">
+    <h1 class="archetype-test"><a href="https://github.com/Archetype-CSS/u-text">Archetype-CSS/u-text:</a> Unit Tests</h1>
+
+    <h3 class="test-title">test__u-textCenter</h3>
+    <p class="test-description">center align text</p>
+    <div class="test">
       <div class="test__u-textCenter">
         Lorem ipsum dolor sit amet.
       </div>
     </div>
 
-    <h3>test__u-textLeft</h3>
-    <div class="partition">
+    <h3 class="test-title">test__u-textLeft</h3>
+    <p class="test-description">left align text</p>
+    <div class="test">
       <div class="test__u-textLeft">
         Lorem ipsum dolor sit amet.
       </div>
     </div>
 
-    <h3>test__u-textRight</h3>
-    <div class="partition">
+    <h3 class="test-title">test__u-textRight</h3>
+    <p class="test-description">right align text</p>
+    <div class="test">
       <div class="test__u-textRight">
         Lorem ipsum dolor sit amet.
       </div>
     </div>
 
-    <h3>test__u-textTruncate</h3>
-      <div class="partition">
+    <h3 class="test-title">test__u-textTruncate</h3>
+    <p class="test-description">truncate text</p>
+      <div class="test">
         <div class="test__u-textTruncate">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla hendrerit blandit dolor, at euismod ante eleifend in. Duis imperdiet cursus nibh, quis tincidunt nibh rhoncus at.
         </div>
       </div>
 
-    <h3>test__u-textBreak</h3>
-    <div class="partition">
-      <div class="test__u-textBreak">
+      <h3 class="test-title">test__u-textBreak</h3>
+      <p class="test-description">break long text strings</p>
+      <div class="test">
+        <div class="test__u-textBreak">
         http://subdomain.exampledomain.com/averylongurlthatneedstobebrokenotherwiseitisgoingtokeepgoingforever
-      </div>
+        </div>
     </div>
     
-    <div class="partition">
+    <div class="test">
       <div class="test__u-textBreak">
         wraplongwords dontbreaklongwords
         wraplongwords dontbreaklongwords
