@@ -1,12 +1,24 @@
 /**
  * Archetype-test
  *
- * default test page styles
+ * test page styles
  *
  */
 
 
-.archetype-test {
+/**
+ * Gray-scale values
+ */
+$gray: darken(white, 35%);
+$gray-dark: darken($gray, 10%);
+$gray-light: lighten($gray, 10%);
+$gray-lighter: lighten($gray, 20%);
+$gray-lightest: lighten($gray, 30%);
+
+/**
+ * Test Header
+ */
+.test-header {
   font-size: 2em;
   font-family: helvetica, sans-serif;
   padding: 20px;
@@ -22,9 +34,9 @@
   font-family: helvetica, sans-serif;
   padding: 20px;
   margin: 20px 0 0 0;
-  background: #eee;
-  color: #999;
-  border-left: 5px solid #666666;
+  background: $gray-lightest;
+  color: $gray;
+  border-left: 5px solid $gray-light;
 }
 
 /**
@@ -33,9 +45,9 @@
  * Styles for the test description detailing the test's expectation
  */
 .test-description {
-  background: #eee;
-  border-left: 5px solid #666666;
-  color: #999999;
+  background: $gray-lightest;
+  border-left: 5px solid $gray-light;
+  color: $gray;
   font-family: helvetica, sans-serif;
   font-weight: normal;
   font-style: italic;
@@ -46,8 +58,8 @@
 }
 
 .test {
-  background: #dddddd;
-  border: 1px solid #999999;
+  background: $gray-lighter;
+  border: 1px solid $gray;
   margin: 1em 0 1em 2em;
   max-width: 400px;
   padding: .5em;
@@ -55,11 +67,16 @@
 
 .Test-describe:before,
 .Test-it:before {
-    color: #999999;
+    color: $gray;
     display: inline-block;
     margin-right: 10px;
     min-width: 30px;
     text-transform: uppercase;
+}
+
+
+body {
+  color: $gray-dark;
 }
 
 a {
