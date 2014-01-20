@@ -13,10 +13,13 @@ Archetype utility classes for text treatment
   * `@extend %u-textTruncate` - truncate a single line with an ellipsis...
   * `@extend %u-textBreak` - break lines that exceed width of parent
 
-### Browser Supoort
+### Browser Suport
   * Chrome (latest)
-  * Firefox 4+
+  * Firefox (4+)
   * Opera (latest)
-  * Safari 5+
-  * Internet Explorer 8+
+  * Safari (5+)
+  * Internet Explorer (8+)
+
+#### License
+[MIT](/LICENSE.md)
 
