@@ -7,7 +7,6 @@
     ".*",
     "CHANGELOG.md",
     "component.json",
-    "package.json",
-    "test.html"
+    "/test"
   ]
 }
