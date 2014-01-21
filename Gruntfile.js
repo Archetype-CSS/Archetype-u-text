@@ -6,7 +6,7 @@ module.exports = function(grunt) {
         options: {
           csslintrc: '.csslintrc'
         },
-        src: ['test/css/test.css', 'test/css/u-text.scss']
+        src: ['test/css/*.css']
       }
     }
   });
