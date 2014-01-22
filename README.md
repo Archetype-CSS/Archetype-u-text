@@ -13,6 +13,15 @@ Archetype utility classes for text treatment
   * `@extend %u-textTruncate` - truncate a single line with an ellipsis...
   * `@extend %u-textBreak` - break lines that exceed width of parent
 
+## Run the Test Locally
+
+```bash
+git clone https://github.com/Archetype-CSS/u-text.git
+cd u-text
+npm install
+grunt
+```
+
 ### Browser Suport
   * Chrome (latest)
   * Firefox (4+)
