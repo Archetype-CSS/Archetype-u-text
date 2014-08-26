@@ -1,10 +1,10 @@
-# u-text [![Build Status](https://secure.travis-ci.org/Archetype-CSS/u-text.png?branch=master)](http://travis-ci.org/Archetype-CSS/utext) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-u-text [![Build Status](https://secure.travis-ci.org/Archetype-CSS/Archetype-u-text.png?branch=master)](http://travis-ci.org/Archetype-CSS/Archetype-u-text) [![Dependency Status](https://gemnasium.com/Archetype-CSS/Archetype-u-text.svg)](https://gemnasium.com/Archetype-CSS/Archetype-u-text) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Archetype utility classes for text treatment
 
 ## Installation
-  * [Bower](http://bower.io): {{coming soon}}
-  * Git: `git clone https://github.com/Archetype-CSS/u-text.git`
+  * [Bower](http://bower.io): `bower install Archetype-u-text`
+  * Git: `git clone https://github.com/Archetype-CSS/Archetype-u-text.git`
 
 ## Use
   * `@extend %u-textCenter` - center align
@@ -16,8 +16,8 @@ Archetype utility classes for text treatment
 ## Run the Test Locally
 
 ```bash
-git clone https://github.com/Archetype-CSS/u-text.git
-cd u-text
+git clone https://github.com/Archetype-CSS/Archetype-u-text.git
+cd Archetype-u-text
 npm install
 grunt
 ```

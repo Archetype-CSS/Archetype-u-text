@@ -1,12 +1,12 @@
-/*** @export "u-text" css */
+/*** @export "Archetype-u-text" css */
 /**
  * Text Utilities
  *
- * Highly influenced by: https://github.com/suitcss/utils-text
+ * https://github.com/suitcss/utils-text
  *
  */
 
-
+/*** @export "Archetype-u-text--horizontal-text-alignment" css */
 /**
  * Horizontal text alignment
  *
@@ -25,6 +25,7 @@
   text-align: right !important; /* 1 */
 }
 
+/*** @export "Archetype-u-text--text-trunication" css */
 /**
  * Text truncation
  *
@@ -45,6 +46,7 @@
   word-wrap: normal !important; /* 2 */
 }
 
+/*** @export "Archetype-u-text--word-breaking" css */
 /**
  * Word breaking
  *
