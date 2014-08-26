@@ -2,13 +2,14 @@
  * Test: Archetype/u-text.scss
  *
  */
-/*** @export "u-text" css */
+/*** @export "Archetype-u-text" css */
 /**
  * Text Utilities
  *
- * Highly influenced by: https://github.com/suitcss/utils-text
+ * https://github.com/suitcss/utils-text
  *
  */
+/*** @export "Archetype-u-text--horizontal-text-alignment" css */
 /**
  * Horizontal text alignment
  *
@@ -32,6 +33,7 @@
   /* 1 */
 }
 
+/*** @export "Archetype-u-text--text-trunication" css */
 /**
  * Text truncation
  *
@@ -43,7 +45,7 @@
  * 2. Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor
  *    nodes.
  */
-/* line 40, ../../_u-text.scss */
+/* line 41, ../../_u-text.scss */
 .test__u-textTruncate {
   max-width: 100%;
   /* 1 */
@@ -54,12 +56,13 @@
   /* 2 */
 }
 
+/*** @export "Archetype-u-text--word-breaking" css */
 /**
  * Word breaking
  *
  * Break strings when their length exceeds the width of their container.
  */
-/* line 54, ../../_u-text.scss */
+/* line 56, ../../_u-text.scss */
 .test__u-textBreak {
   word-wrap: break-word !important;
 }
